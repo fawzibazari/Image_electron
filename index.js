@@ -18,7 +18,7 @@ let aboutWindow
 
 function createMainWindow() {
   mainWindow = new BrowserWindow({
-    title: 'ImageShrink',
+    title: 'Mugiwara',
     width: isDev ? 800 : 500,
     height: 600,
     icon: `${__dirname}/assets/icons/Icon_256x256.png`,
@@ -38,7 +38,7 @@ function createMainWindow() {
 
 function createAboutWindow() {
   aboutWindow = new BrowserWindow({
-    title: 'About ImageShrink',
+    title: 'About Mugiwara',
     width: 300,
     height: 300,
     icon: `${__dirname}/assets/icons/Icon_256x256.png`,
